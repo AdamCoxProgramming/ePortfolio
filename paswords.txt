@@ -1,0 +1,16 @@
+I think digital signitures are a great way to help recipiants distinguish between sources of data.
+
+They cannot ensure that data will not be leaked however. 
+
+GDPR does not specifically address the use of passwords but it says that data should be 
+"Processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or 
+unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures."
+
+This requires businesses to prevent unauthorized access to personal data (ICO, 2020).
+
+For high risk data such as passwords we dicided that storing the data on paper was the most secure method.
+
+Storing passwords for root account access physicaly means that there is no means to obtain them by hacking.
+
+Storing the data physically also restricts access to the data making it harder for the data to be leaked.
+

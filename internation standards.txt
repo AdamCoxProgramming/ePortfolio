@@ -1,0 +1,11 @@
+Hi Man,
+
+"I think the countries or cities outside EU should promote some regulations which is similar to the GDPR"
+
+As well as the regulations imposed by nation states there are international standards that companys from other parts of the world can benifit from following.
+The ISO (International Organization for Standardization) develop standards which are recognized and applied globaly.
+ISO 27001 is a standard for IT management of employee details and third party data among other things (International Organization for Standardization, 2020). 
+Adoption of this standard can actually be used to help demonstrate compiance with GDPR.
+
+International Organization for Standardization. (2020) ISO/IEC 27001. Available from:
+https://www.iso.org/isoiec-27001-information-security.html [Accessed 05 Oct 2020].
