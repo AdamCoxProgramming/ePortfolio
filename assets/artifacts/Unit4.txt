@@ -1,0 +1,28 @@
+Web Browsers
+
+This week expanded our knowledge of computer networks. 
+The primary access point for most users to the internet is the web browser.
+The web browser is a part of the application layer in the OSI and TCP/IP stacks.
+
+Web browsers allow users to specify a page's adress, then loads the page and displays its contents.
+Web sites a created using HMTL for layout items, css for layout stying and javscript for programmable client side functionality.
+
+The web browser is a client, the web browser can display sites hosted on servers.
+
+A browser will have at a bare minimum:
+	
+Networking functionality
+Rendering engine
+Javascript interpreter
+Data persistance
+
+The Rendering engine will format and display the mark up that the Networking retrives, the render engine will utilize the operating systems 
+graphic drawing API's.
+The data persistance will store users preferences and cookies that can be used for severs to store data on the client side.
+
+Side note - diffferent browsers use differnt rendering engines. Unfourtuantly they implement CSS slightly differently meaning that
+the same markup and styling can look different in different browsers. some render engine use their own specifc css.
+
+
+
+

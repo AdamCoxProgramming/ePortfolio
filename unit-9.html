@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Unit 9</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html">Adam Cox <span>ePortfolio</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="submenu">
+							<a href="#">Menu</a>
+							<ul>
+								<li><a href="left-sidebar.html">About Me</a></li>
+								<li><a href="no-sidebar.html">Launch Module</a></li>
+								<li><a href="Launching-into-Computer-Science.html">Launching into Computer Science</a></li>		
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-laptop"></span>
+						<h2 style="color:#1271EA; font-weight:400" >Unit 9</h2>
+						<p>Emerging Trends in Computer Science</p>
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 container">
+
+							<!-- Content -->
+								<div class="content">
+									<section>
+										<header>
+											<h3>Unit 9: Python</h3>
+										</header>
+										<p>
+
+											<p>I have chosen to explore recursion during this weeks material.</p>
+											
+											<p>What is recursion?</p>
+											
+											What is recursion generally?
+											Recursion occurs when a thing is defined in terms of itself.
+											
+										What is recursion used for in computer science?
+											Recursion is an algorithm technique. Recursive algorithms break down a problem into smaller pieces, then call itself to solve the smaller pieces.
+											Often, in the process of solving the smaller piece, the method will solve a yet smaller piece of the problem, and so on, until it reaches a "base case".
+											A base condition occurs when the problem has been broken down to a size where it can be solved with out further breaking down.
+											Every task performed by a recursive function is a subtask of its calling function (unless its the root).
+											
+											As defined above, recursion occurs when a thing is defined in terms of itself, as such we can identify an algorithm as recursive if an algorithm calls itself.
+											
+											Problems that can be solved recursively can generally be solved by iteration also.
+											
+										<p>Recursion vs iterative approaches</p>
+											
+									<p>Iterative algorithms</p>
+											
+											Iteration algorithms repeat a set of instructions until a condition is met.
+											Iterative approaches will often utilize the for and while control structures.
+											If an iterative algorithm does not meet its exit condition, it will continue on for ever.
+											
+										<p>Recursive algorithms</p>
+											
+											Recursion is for solving problems that can be broken down into smaller, subproblems.
+											Recursive approaches will that call selves.
+											If a recursive function does not hit a base case, a stack overflow exception will occur when the stack memory is full.
+											
+										<p>Recursive call stack</p>
+											
+											What happens when a function is called?
+											
+										<p>Space is allocated on the stack for the functions arguments and local variables before control is passed to the function and the function runs.
+											Once the function has finished running the result is copied the calling function to which control is returned. </p>
+											
+											https://stackoverflow.com/questions/3021/what-is-recursion-and-when-should-i-use-it
+											1)space is carved out on the stack for the function's arguments and local variables
+											2)the function's arguments are copied into this new space
+											3)control jumps to the function
+											4)the function's code runs
+											5)the function's result is copied into a return value
+											6)the stack is rewound to its previous position
+											7)control jumps back to where the function was called	
+											
+											Examples of call stacks for a factorial algorithm in each approach
+											// iterative version
+											<pre>
+												<code>
+Callstack for an iterative factorial algorithm
+	- factorial(5) 
+											
+Callstack for recursive factorial
+	- factorial(5)
+	- factorial(4)
+	- factorial(3)
+	- factorial(2)
+	- factorial(1)
+											</code></pre>
+											
+											Examples of iterative and recursive functions
+											
+											Example from: http://pages.cs.wisc.edu/~vernon/cs367/notes/6.RECURSION.html#iter
+											// iterative version
+											<pre>
+												<code>
+int fib (int N) {
+	int k1, k2, k3;
+	k1 = k2 = k3 = 1;
+	for (int j = 3; j <= N; j++) {
+		k3 = k1 + k2;
+		k1 = k2;
+		k2 = k3;
+	}
+	return k3;
+}</code></pre>
+											<pre><code>
+// recursive version
+int fib (int N) {
+	if ((N == 1) || (N == 2)) return 1;
+	else return (fib (N-1) + fib (N-2));
+}
+										</code></pre>
+											
+										<p>Take away:</p>
+											Solving a problem iteratively requires the explicit creation of a stack, making dynamic datasets harder to accommodate.
+											
+											Recursive is especially good for working on things that have many possible branches and are too complex for an iterative approach.
+											
+										<p>Benefits:</p>
+											Recursion allows automatic allocation of additional objects at each function call. The iterative alternative requires the programmer to provide a mechanism for storing the required state.
+											Recursion can be more intuitive when the approach mimics the problem, for example with Tree structures.
+											
+										<p>Disadvantage.</p>
+											Recursion can be harder to debug, "down the rabbit hole". 
+											Recursion does not have a fixed memory size, whereas iterative approaches do.
+											Recursion can be slower due to more time required allocating memory on the stack.
+											
+											Similarity:
+											Both require an exit case, and if the exit case it has not reached the algorithm can continue indefinitely.
+											
+											Differences: 
+											If the exit case is not met for an iterative algorithm, the CPU will only waste "clock cycles", where as for a recursive algorithm memory and CPU cycles will be wasted.
+											
+											Recursive algorithms should be applied when the problem is itself "recursive" as the "automatic stack" can help simplify the algorithm, by allowing the user to focus on the problem one slice at a time.
+											Recursive algorithms can be dangerous if the memory is constrained and performance should be considered if the CPU is slow.
+											
+										</p>
+
+									</section>
+								</div>
+
+						</section>					
+				</article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
