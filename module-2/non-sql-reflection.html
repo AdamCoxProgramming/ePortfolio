@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>NoSQL</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="../index.html">Adam Cox <span>ePortfolio</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="submenu">
+							<a href="#">Menu</a>
+							<ul>
+								<li><a href="about-me.html">About Me</a></li>
+								<li><a href="launch-module.html">Launch Module</a></li>
+								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	
+								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-laptop"></span>
+						<h2 style="color:#1271EA; font-weight:400">NoSQL</h2>
+						<p>Alternative technologies to relationdatabases offer unique advantages</p>
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 container">
+
+							<!-- Content -->
+								<div class="content">
+									<section>
+										<header>
+											<h3 >An Investigation of Graph Databases</h3>
+										</header>
+
+<p>The demands of databases since the rise of the internet has required high concurrency and efficient storage and query performance.</p>
+
+<p>Neo4j is a leading implementation of a Graph database that has been adopted by many large organizations such as eBay, Walmart and governments.</p>
+
+<p>What are the benefits of Neo4j being a graph database?</p>
+
+<p>With RDB's increasing the depth of a query (the number of joins/connections) dramatically reduces performance. This is because every table accessed need to be 'indexed' (lookup).  With a graph database, the performance remains constant regardless of the number of connections between entities.  This makes graph databases suitable for highly connected data.</p>
+
+<p>It is also easier to update the model of a graph database on the fly as the graph database does not require a schema.  This can reduce the need for database schema migrations.</p>
+
+<p>The graphs in a graph database are composed of nodes and are connected by relationships. Nodes represent entities. This is a benefit because the database implementation can closely resemble a logical or physical entity relationship diagram.</p>
+
+<p>Graph databases have a 'connection first approach to data storage. The relationships and connections between entities are permanently stored in graphs. In comparison with an RDBS, the connections are calculated during the query.  This storage of connections/references is what enables constant performance regardless of depth. Because all connections are persisted there is no need for foreign keys and a reduced need for post-processing of data after querying.</p>
+
+<p>Neo4j is built using native graph storage whereas some graph databases still use RDBS under the hood. Native graph storage increases performance. Graph databases are great for data analysis that involves lots of connections, as such, it has been used widely for fraud detection and product recommendations.</p>
+
+<p>Part of the success of Neo4j's adoption is because it conforms to the ACID standard. This means it is a stable platform for critical information.</p>
+<h4>ACID</h4>
+<ul> 
+<li>Acid is a standard for databases that requires the database to guarantee transactions are processed reliably.</li>
+
+<li>Atomicity - either all parts of a transaction succeed or no parts of it should. This prevents fragmented data from being stored.</li>
+
+<li>Consistency - All data must be valid according to defined constraints</li>
+
+<li>Isolation - Every transaction must occur in isolation. One transaction cannot see changes made by another until the other is completed</li>
+
+<li>Durability - Once a transaction is complete it must be stored permanently and immediately</li>
+
+<li>Confirmation with ACID helps to prevent data corruption. Acid compliance reduces the damage of software and hardware crashes and failed transactions.</li>
+
+</ul>
+
+<p>RDBS normally fully comply with ACID principles, it is more common for NoSQL databases not to fully comply with ACID. Not complying with ACID can offer possibilities for performance gains.</p>
+
+<p>Many NoSQL databases make use of eventual consistency for performance gains.</p>
+
+<h4>Eventual consistency</h4>
+
+<p>Eventual consistency is a guarantee made by many distributed systems.  It guarantees that if data is repeated across many nodes then changing one piece of data will mean all the other replicas are updated to match it.</p>
+
+<p>The use of Eventual consistency means that data will often be out of sync enabling the possibility of retrieving out of date information.</p>
+
+<p>Neo4j does not use eventual consistency because the nature of graph storage requires strong consistency. Because of this requirement up until recently, Neo4j has been a 'single image system'. This means it runs from a single server.  Running on a single machine helped ensure strong consistency as it eliminated the time for networking calls.</p>
+
+<p>As of early 2020 support has been added to Neo4j for running across distributed systems.  In this implementation, each system will store a subgraph of the full graph.  Neo4j are able to maintain strong consistency even when running on distributed systems by using collision avoidance so that only a small fraction of transactions need to be coordinated.</p>
+
+<h4>Reasons not to use graph databases</h4>
+<ul>
+<li>If the data model you are working with is likely to remain very static and tabular  then you will not receive the full benefits of a graph databases flexible approach and an RDBS can better ensure data integrity.</li>
+
+<li>Graph databases are efficient when starting from a specific node/entity but are slow at traversing large sets.  As such if you will be using queries that require traversing large sets graph databases are not optimal.</li>
+
+<li>Graph databases are bad at storing large blobs of data as attributes.  Large blob sizes slow down traversal. Perhaps a key-value pair would be more suitable in this instance</li>
+</ul>
+									</section>
+								</div>
+
+						</section>					
+				</article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.dropotron.min.js"></script>
+		<script src="../assets/js/jquery.scrolly.min.js"></script>
+		<script src="../assets/js/jquery.scrollgress.min.js"></script>
+		<script src="../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

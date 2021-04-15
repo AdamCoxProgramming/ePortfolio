@@ -1,0 +1,59 @@
+
+Properties
+
+Street
+
+Postcode
+
+Type
+
+Bedrooms
+
+Owner name
+
+Owner address
+
+Owner telephone
+
+Price
+
+Client name
+
+Client Date of Birth
+
+Client telephone
+
+Rental start date
+
+Duration
+
+Pets allowed
+
+Deposit amount
+
+Deposit paid
+
+
+Maintenance
+
+Street
+
+Postcode
+
+Owner name
+
+Owner telephone
+
+Tenant name
+
+Tenant telephone
+
+Issue
+
+Contractor name
+
+Contractor telephone
+
+Estimated cost
+
+Resolved

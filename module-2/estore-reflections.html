@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>E-store Reflections</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="../index.html">Adam Cox <span>ePortfolio</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="submenu">
+							<a href="#">Menu</a>
+							<ul>
+								<li><a href="about-me.html">About Me</a></li>
+								<li><a href="launch-module.html">Launch Module</a></li>
+								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	
+								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-laptop"></span>
+						<h2 style="color:#1271EA; font-weight:400">E-store Reflections</h2>
+						<p>Reflecting upon the modules major summative assignments</p>
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 container">
+
+							<!-- Content -->
+								<div class="content">
+									<section>
+										<header>
+											<h3 >Developing An Estore</h3>
+										</header>
+										<p>For the mid module and final assignment I was tasked with implementing a e-store in Python using the techniques developed during the course.
+
+											How the implemetation fitted into the Software development life-cycle.
+											
+											As we learnt during initial modules the Software development life cycle is a standardized set of procecsses for building a software system.
+											
+											The SDLC can be used to help produce higher quality software, faster. 
+											Because of the scale of this project the ramifications for mistakes during the process are reduced.
+											This is because a single 'small' code base is relativly easy to modify.
+											
+											The Business layer produced could be used to implement different forms of interface, for example the same layer could be used in a RESFULL interface.
+											
+											I did not follow strictly follow the SDLC during this project but I did complete its stages through out development.
+											It is interesting to see how the work I did maps to the SDLC.
+											
+											Planning - Reading the breif. During this phase I developed an understanding of the system.
+											
+											Analysis - From the breif I extracted all the requirments for the system.
+											
+											Design - I created class activity and state diagrams to detail the system.
+											
+											Development - I implemented aspects of my initial designs to during the design phase to test them out. 
+											Once the design was complete I implemented it fully in Python.
+											
+											Testing - I both 'informally' tested the system during development with tempoary test scrips and later produced more detailed tests.
+											
+											Deployment - I developed my system localy and copied the files across to Codio. 
+											This mimicked 'deployment'. I had some minor issues to resolve after deployment.
+											
+											Mainitence - I have not completed any tasks for this phase.
+											
+											Object oreintated analysis was used during the analysis phase and Object oreintated design was used during the design phase.
+											
+											Python was used as the langauge for the implementaion.
+											I enjoyed developing the project using python and have considerd some of the strengths and weaknesses of the language.
+											
+											I found Python very fast for prototyping. This enabled me to create quick prototypes during the design stage to test ideas out.
+											I found Python also very fast for adding new features to the program.
+											
+											I found making changes in python that affected allready existing code to be cumbersome however.
+											This belive this is largly down to lack of strict typing. For example 
+											
+											I also found Pythons import mechanism to be cumbersome. For starters there are many different ways to import code.
+											The sheer number of approaches made it harder to find reference material subtable for my needs on the internet.
+											I found that the need to specify not only a modules name, but location strange comming from a C# background.
+											Needing to specify locations for the imported modules meant re-structuring my project caused errors that would not have occured in C#.
+											
+											I also found the number of different Python versions to be a bit of a nusience. 
+											For example when I copied accross code from my computer to the Codio platform I had errors where the code wouldnt work beacuse I had used a differnt Python version on my PC.
+											This was not a big deal for me as I could make sure to use the same version on both my PC as Codio but I did find some examples on the internet where not valid due to version compatibility.
+											I have read that on larger projects it can be a real problem if the code base is split between different Python versions.
+											
+											I developed the Python code in a 3 itteration approach. This approach was an example of Itterative development.
+											Firstly I created the Bussiness objects for the system. I wrote simple tests scripts to validate their correct opperation.
+											Second I wrote the interace layer. The interface layer used the business objects to manipluate the system state.
+											Finaly I wrote the database layer. Using this approach I had confidence that the system opperated correctly after each itteration because each layer had its own tests.
+											When I came to the database developments itteration I allready had tests for the bussiness and interface layer that I could use for verification.
+											
+											A downside to this approach is that if i wanted to change something that was implemented in the first itteration it would require changes to work done in each of the itterations that followed.
+											An alternative approach could have been to implement all three layers at the same time. This way if I found that work in one layer required changes in another I could adress it quickly.
+											
+											I think that the itterative approach was successfull as it helped to produce code with nice seperation of layers.
+											
+											Database
+											
+											I choose to implement a database for this project. 
+											This was outside of the scope of the project but I thought it would be a good oppourtunity to try out some of the techniques learnt on the course.
+											
+											I found the database design stage to be pretty straight forward. 
+											It was interesting to find that some of the class entitys In my design did not need their own tables as the information for these classes was already captured in other tables.
+											I normalized most of the tables, which I found added a little extra time to the upfront development time. 
+											I imagine this would be worth it if the project every had to actually store lots of data and needed maintience, as it is the effects are minimal.
+											
+											During the module I learnt about other forms of databases. 
+											I belive a relational database to be most suitable for two reasions.
+											1) the project contains highly structured nature of the data.
+											2) There is little chance that large schema changes will be needed so the rigidity of the database is actually a benift (because of condition checks).
+											
+											If this project were to be continued, I can see how a different type of database could be useful for additional features.
+											For example a graph database could be used if the store wanted to provide product recommendations.
+											Graph databases excel with highly connected entitys that have 'fuzzy' releationships as as such would suit a product remondation system based of customers previous orders.
+											I database like this could be used to supliment the existing SQL database and as such the project could have 'the best of both worlds'.
+																			
+										</p>
+
+									</section>
+								</div>
+
+						</section>					
+				</article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.dropotron.min.js"></script>
+		<script src="../assets/js/jquery.scrolly.min.js"></script>
+		<script src="../assets/js/jquery.scrollgress.min.js"></script>
+		<script src="../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
