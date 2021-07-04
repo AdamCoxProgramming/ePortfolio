@@ -1,0 +1,294 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 78e105a..ac5fb3f 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -71,7 +71,6 @@[m
+ 							</div>[m
+ [m
+ 							<div class="col-6 col-12-narrower">[m
+[31m-[m
+ 								<section>[m
+ 									<a href="module-1/Launching-into-Computer-Science.html" class="image featured"><img src="images/board.jpg" alt="" /></a>[m
+ 									<header>[m
+[36m@@ -82,7 +81,6 @@[m
+ 							</div>[m
+ [m
+ 							<div class="col-6 col-12-narrower">[m
+[31m-[m
+ 								<section>[m
+ 									<a href="module-2/Object-OrientedInformationSystems.html" class="image featured"><img src="assets/artifacts/SuperMarketWeek5.png" alt="" /></a>[m
+ 									<header>[m
+[36m@@ -91,6 +89,16 @@[m
+ 									<p>This module explores the different elements of an information system, from design to processing and storage. Further this module explores the application of object oriented design and development for creating sustainable solutions.</p>[m
+ 								</section>[m
+ 							</div>[m
+[32m+[m[41m							[m
+[32m+[m							[32m<div class="col-6 col-12-narrower">[m
+[32m+[m								[32m<section>[m
+[32m+[m									[32m<a href="module-3/home.html" class="image featured"><img src="assets/artifacts/SuperMarketWeek5.png" alt="" /></a>[m
+[32m+[m									[32m<header>[m
+[32m+[m										[32m<h3>Secure Software Development</h3>[m
+[32m+[m									[32m</header>[m
+[32m+[m									[32m<p>This module explores the process of developing secure software.</p>[m
+[32m+[m								[32m</section>[m
+[32m+[m							[32m</div>[m
+ 						</div>[m
+ [m
+ 					</section>[m
+[1mdiff --git a/module-1/Launching-into-Computer-Science.html b/module-1/Launching-into-Computer-Science.html[m
+[1mindex 93b3d6a..68b45d4 100644[m
+[1m--- a/module-1/Launching-into-Computer-Science.html[m
+[1m+++ b/module-1/Launching-into-Computer-Science.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 								<a href="#">Menu</a>[m
+ 								<ul>[m
+ 									<li><a href="about-me.html">About Me</a></li>[m
+[31m-									<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m									[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 									<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+[31m-									<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m									[32m<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>[m[41m	[m
+[32m+[m									[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m		[m
+ 								</ul>[m
+ 							</li>[m
+ 						</ul>[m
+[1mdiff --git a/module-1/unit-1.html b/module-1/unit-1.html[m
+[1mindex fbfc1a1..90883b9 100644[m
+[1m--- a/module-1/unit-1.html[m
+[1m+++ b/module-1/unit-1.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+ 								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m	[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-10.html b/module-1/unit-10.html[m
+[1mindex 9224ad3..a61fcd2 100644[m
+[1m--- a/module-1/unit-10.html[m
+[1m+++ b/module-1/unit-10.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+[31m-								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m			[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-11.html b/module-1/unit-11.html[m
+[1mindex 65b7b4a..7ae4663 100644[m
+[1m--- a/module-1/unit-11.html[m
+[1m+++ b/module-1/unit-11.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+[31m-								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>[m[41m	[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m		[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-12.html b/module-1/unit-12.html[m
+[1mindex f80ce98..3310713 100644[m
+[1m--- a/module-1/unit-12.html[m
+[1m+++ b/module-1/unit-12.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+[31m-								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>[m[41m	[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m		[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-2.html b/module-1/unit-2.html[m
+[1mindex 8cb1476..dc6ac38 100644[m
+[1m--- a/module-1/unit-2.html[m
+[1m+++ b/module-1/unit-2.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+ 								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m	[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-3.html b/module-1/unit-3.html[m
+[1mindex 1dece7d..4f6bcda 100644[m
+[1m--- a/module-1/unit-3.html[m
+[1m+++ b/module-1/unit-3.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+ 								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m	[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-4.html b/module-1/unit-4.html[m
+[1mindex 9283add..8813abc 100644[m
+[1m--- a/module-1/unit-4.html[m
+[1m+++ b/module-1/unit-4.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+[31m-								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>[m[41m	[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m		[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-5.html b/module-1/unit-5.html[m
+[1mindex 4b57d79..ad832c4 100644[m
+[1m--- a/module-1/unit-5.html[m
+[1m+++ b/module-1/unit-5.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+[31m-								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>[m[41m	[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m		[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-6.html b/module-1/unit-6.html[m
+[1mindex 374be16..56326c0 100644[m
+[1m--- a/module-1/unit-6.html[m
+[1m+++ b/module-1/unit-6.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+[31m-								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>[m[41m	[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m		[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-7.html b/module-1/unit-7.html[m
+[1mindex 5ee95ff..b6871c1 100644[m
+[1m--- a/module-1/unit-7.html[m
+[1m+++ b/module-1/unit-7.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+[31m-								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>[m[41m	[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m		[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-8.html b/module-1/unit-8.html[m
+[1mindex 49e5273..af4648d 100644[m
+[1m--- a/module-1/unit-8.html[m
+[1m+++ b/module-1/unit-8.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+ 								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m	[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-1/unit-9.html b/module-1/unit-9.html[m
+[1mindex efec27d..c93d815 100644[m
+[1m--- a/module-1/unit-9.html[m
+[1m+++ b/module-1/unit-9.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+ 								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m	[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-2/InternetOfThings.html b/module-2/InternetOfThings.html[m
+[1mindex 1f7757b..ffa1a61 100644[m
+[1m--- a/module-2/InternetOfThings.html[m
+[1m+++ b/module-2/InternetOfThings.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+[31m-								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>[m[41m	[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m		[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-2/OOP-Reflections.html b/module-2/OOP-Reflections.html[m
+[1mindex 4420a29..8c2c16e 100644[m
+[1m--- a/module-2/OOP-Reflections.html[m
+[1m+++ b/module-2/OOP-Reflections.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 							<a href="#">Menu</a>[m
+ 							<ul>[m
+ 								<li><a href="about-me.html">About Me</a></li>[m
+[31m-								<li><a href="launch-module.html">Launch Module</a></li>[m
+[32m+[m								[32m<li><a href="../launch-module.html">Launch Module</a></li>[m
+ 								<li><a href="../module-1/Launching-into-Computer-Science.html">Launching into Computer Science</a></li>	[m
+ 								<li><a href="../module-2/Object-OrientedInformationSystems.html">Object-Oriented Information Systems</a></li>		[m
+[32m+[m								[32m<li><a href="../module-3/home.html">Secure Software Development</a></li>[m[41m	[m
+ 							</ul>[m
+ 						</li>[m
+ 					</ul>[m
+[1mdiff --git a/module-2/Object-OrientedInformationSystems.html b/module-2/Object-OrientedInformationSystems.html[m
+[1mindex 31e6374..752e0e9 100644[m
+[1m--- a/module-2/Object-OrientedInformationSystems.html[m
+[1m+++ b/module-2/Object-OrientedInformationSystems.html[m
+[36m@@ -24,9 +24,10 @@[m
+ 								<a href="#">Menu</a>[m
+ 								<ul>[m
+ 									<li><a href
